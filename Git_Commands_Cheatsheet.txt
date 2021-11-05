@@ -1,0 +1,22 @@
+// commands to push project on Github 
+by using git the open source Tool daveloped 
+by Author of Linux operating system Github is Team 
+collabaration Tool Whereas Git is is version control
+Tool Git exist without Github but Github not.//
+
+You mush have installed Git on your system and have valid github account
+
+All Git-bash commands To push The project on Github are as follows ======>
+
+
+1) touch .gitignore
+2) git config --global user.name Narayan    // please add your name as user 
+3) git config --global user.email youremail@example.com
+4) git init
+3) git add  .
+4) git commit -m "Intial Commit"
+5) git status  //only for check  status
+7) ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+tail <path to id_rsa.pub> # add this key to your github account
+git remote add origin <ssh url.git>
+git push origin master
